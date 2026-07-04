@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'resume-analyzer-with-gemini-ai.vercel.app', 
+  origin: 'https://resume-analyzer-with-gemini-ai.vercel.app', 
   credentials: true,
 }));
 app.use(express.json());
